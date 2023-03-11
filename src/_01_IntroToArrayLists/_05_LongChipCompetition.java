@@ -30,9 +30,28 @@ public class _05_LongChipCompetition {
 		theBeatles.add(ringo);
 	}
 	
+	
+	
 	public ArrayList<Beatle> getTheBand(){
 		return theBeatles;
 	}
+	
+void ChipFinder() {
+		
+	Chip biggest;
+	Beatle beetle;
+		for (int i = 0; i < theBeatles.size(); i++) {
+			beetle = theBeatles.get(i);
+			
+			for (int j = 0; j < beetle.getChips().size(); j++) {
+				biggest = beetle.getChips().get(0);
+				
+			}
+		}
+		
+	}
+	
+	
 }
 
 class Beatle {
@@ -71,3 +90,4 @@ class Chip {
 		this.length = d;
 	}
 }
+
