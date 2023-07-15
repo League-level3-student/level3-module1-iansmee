@@ -21,6 +21,8 @@ public class _03_TestMatchingBrackets {
 	// USE A STACK TO COMPLETE THE METHOD FOR CHECKING IF EVERY OPENING BRACKET HAS A MATCHING CLOSING BRACKET
 	private boolean doBracketsMatch(String b) {
 		
+		works if the first character is opening bracket, the last character is a closing bracket, and if there is an equal number of opening and closing brackets
+		
 		return false;
 	}
 
