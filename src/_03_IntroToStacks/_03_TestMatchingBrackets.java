@@ -20,8 +20,36 @@ public class _03_TestMatchingBrackets {
 
 	// USE A STACK TO COMPLETE THE METHOD FOR CHECKING IF EVERY OPENING BRACKET HAS A MATCHING CLOSING BRACKET
 	private boolean doBracketsMatch(String b) {
+		String pusher = "i";
+		char letter = 0;
 		
-		works if the first character is opening bracket, the last character is a closing bracket, and if there is an equal number of opening and closing brackets
+		Stack<String> Brackets = new Stack<String>();
+		
+		for (int i = 0; i < b.length(); i++) {
+			letter = b.charAt(i);
+			
+			
+			if(letter == '{') {
+			Brackets.push(pusher);
+		}
+			else{
+				if(Brackets.isEmpty()) {
+					return false;
+				}
+				Brackets.pop();
+		}
+			
+			
+			
+		}
+		
+		if(Brackets.isEmpty()) {
+			return true;
+		}
+		
+		
+		
+		
 		
 		return false;
 	}
