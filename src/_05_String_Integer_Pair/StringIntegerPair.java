@@ -81,11 +81,12 @@ public class StringIntegerPair {
 	public String[] getKeys() {
 		
 		
-		return null;
+		return keys;
 	}
 	
 	//9. Complete the getValues so it returns the values as an array
 	public int[] getValues() {
-		return null;
+		
+		return values;
 	}
 }
